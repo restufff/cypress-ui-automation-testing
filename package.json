@@ -1,0 +1,19 @@
+{
+  "name": "flip-case-study-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:mocha": "cypress run --browser chrome --reporter mochawesome --reporter-options reportDir=reports/",
+    "cy:gui": "npx cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.8.1"
+  },
+  "dependencies": {
+    "mocha": "^10.4.0",
+    "mochawesome": "^7.1.3"
+  }
+}

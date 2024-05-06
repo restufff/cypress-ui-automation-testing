@@ -1,0 +1,127 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-05-05T19:38:07.576Z",
+    "end": "2024-05-05T19:38:16.049Z",
+    "duration": 8473,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0a595d0e-36de-455f-8d05-c36a4670944f",
+      "title": "",
+      "fullFile": "test\\scenarios\\languague-toogle.spec.js",
+      "file": "test\\scenarios\\languague-toogle.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9f9e446e-1391-4c8c-bb21-4b3be73f6b54",
+          "title": "Language Toggle",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Switches language to ID and verifies",
+              "fullTitle": "Language Toggle Switches language to ID and verifies",
+              "timedOut": null,
+              "duration": 4106,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "4fd10ad6-aadf-4993-b95b-485eb835cd7b",
+              "parentUUID": "9f9e446e-1391-4c8c-bb21-4b3be73f6b54",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Switches language to EN and verifies",
+              "fullTitle": "Language Toggle Switches language to EN and verifies",
+              "timedOut": null,
+              "duration": 2507,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "d5f4ed9f-5691-4203-b2a6-08b52b96a0a0",
+              "parentUUID": "9f9e446e-1391-4c8c-bb21-4b3be73f6b54",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4fd10ad6-aadf-4993-b95b-485eb835cd7b",
+            "d5f4ed9f-5691-4203-b2a6-08b52b96a0a0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6613,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "reportPageTitle": "Automated Test Status",
+        "reportTitle": "Automated Test Reporting Dashboard",
+        "showPassed": true,
+        "autoOpen": false,
+        "charts": true,
+        "code": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}
